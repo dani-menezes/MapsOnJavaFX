@@ -1,10 +1,26 @@
+html { 
+	height: 100% 
+}
+body { 
+	height: 100%; 
+	margin: 0px; 
+	padding: 0px 
+}
+
+#map_canvas { 
+	height: 100%; 
+	background-color: #666970; 
+}
+
 .map{
     -fx-background-color: #666970;
 }
+
 .map-toolbar .button, .map-toolbar .toggle-button, .map-toolbar .label {
     -fx-text-fill: white;
     -fx-background-radius: 0;
 }
+
 .map-toolbar{
     -fx-base: #505359;
     -fx-background: #505359;
@@ -12,3 +28,10 @@
     -fx-spacing: 5;
     -fx-padding: 4 4 4 4;
 }
+
+
+
+
+
+
+
